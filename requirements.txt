@@ -10,8 +10,8 @@ MarkupSafe==2.1.0
 numpy==1.22.2
 Pillow==9.0.1
 requests==2.27.1
-https://download.pytorch.org/whl/cpu/torch-1.9.1%2Bcpu-cp37-cp37m-linux_x86_64.whl
-torchvision==0.11.3
+torch==1.10.2+cpu
+torchvision==0.11.3+cpu
 typing_extensions==4.1.1
 urllib3==1.26.8
 Werkzeug==2.0.3
