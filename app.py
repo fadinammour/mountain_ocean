@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify, request
 import json
-from utils_lib import format_class_name, transform_image, get_model
+from utils_lib import transform_image, get_model
 
 app = Flask(__name__)
 
@@ -24,10 +24,8 @@ def predict():
         if not file:
             return
         img_bytes = file.read()
-        class_id, class_name = get_prediction(image_bytes=img_bytes)
-        class_name = format_class_name(class_name)
-        return render_template('result.html', class_id=class_id,
-                               class_name=class_name)
+        class_name = get_prediction(image_bytes=img_bytes)
+        return render_template('result.html', class_name=class_name)
     return render_template('index.html')
 
 if __name__ == '__main__':
