@@ -6,7 +6,7 @@ Deep Learning Web App to classify Ocean and Mountain Images using PyTorch, Flask
 
 This project has been developped as a technical test during the recruitment process at Ideta in March 2022.
 
-## Installation and Use
+## Installation and Usage
 
 Locally :
 
@@ -15,7 +15,7 @@ Locally :
 3. In an open terminal, activate the virtual environment, change directory to the cloned repository and run `pip -r requirements.txt`.
 4. Run `FLASK_ENV=development FLASK_APP=app.py flask run`.
 
-Remotely : Click on the badge
+Remotely : Click on the badge below
 
 [![Mountain v/s Ocean](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/320px-Heroku_logo.svg.png)](https://mountain-vs-ocean.herokuapp.com/)
 
