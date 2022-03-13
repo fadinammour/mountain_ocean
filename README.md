@@ -68,6 +68,12 @@ And the training was performed on my MacBook Pro 2021 and took around : ~9 hours
 
 It would be interesting to optimize the training by taking advantage of multi-processing for example.
 
+#### Out of class objects handling
+
+For objects that are neither an Ocean nor a Mountain, I determined empirically that they had a score inferior to 1. So I used this value as a threshold for undetermined objects. As mentioned in Anh-Thi DINH's project, if an image contains both mountains and oceans than it could also be classified as undetermined.
+
+It is possible to improve the threshold bu automating its estimation. And the Out f Class problem can also be handled in different manners (creating additional classes, using unsupervised methods to detect new classes, ...).
+
 ## What I have learned
 
 By performing this project, I learning many valuable skills :
