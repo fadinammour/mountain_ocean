@@ -15,7 +15,9 @@ Locally :
 3. In an open terminal, activate the virtual environment, change directory to the cloned repository and run `pip -r requirements.txt`.
 4. Run `FLASK_ENV=development FLASK_APP=app.py flask run`.
 
-Remotely : Click on the badge [![Mountain v/s Ocean](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/320px-Heroku_logo.svg.png)](https://mountain-vs-ocean.herokuapp.com/)
+Remotely : Click on the badge
+
+[![Mountain v/s Ocean](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/320px-Heroku_logo.svg.png)](https://mountain-vs-ocean.herokuapp.com/)
 
 ## Approach
 
