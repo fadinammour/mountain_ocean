@@ -15,7 +15,7 @@ Locally :
 3. In an open terminal, activate the virtual environment, change directory to the cloned repository and run `pip -r requirements.txt`.
 4. Run `FLASK_ENV=development FLASK_APP=app.py flask run`.
 
-Remotely : Click on the badge [![Mountain v/s Ocean](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/2560px-Heroku_logo.svg.png =100)](https://mountain-vs-ocean.herokuapp.com/)
+Remotely : Click on the badge [![Mountain v/s Ocean](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/2560px-Heroku_logo.svg.png){width: 5%;height: auto;}](https://mountain-vs-ocean.herokuapp.com/)
 
 ## Approach
 
@@ -66,7 +66,7 @@ And the training was performed on my MacBook Pro 2021 and took around : ~9 hours
 
 It would be interesting to optimize the training by taking advantage of multi-processing for example.
 
-## What I learned
+## What I have learned
 
 By performing this project, I learning many valuable skills :
 
