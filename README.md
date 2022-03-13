@@ -15,7 +15,7 @@ Locally :
 3. In an open terminal, activate the virtual environment, change directory to the cloned repository and run `pip -r requirements.txt`.
 4. Run `FLASK_ENV=development FLASK_APP=app.py flask run`.
 
-Remotely : Click on the badge [![Mountain v/s Ocean](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/2560px-Heroku_logo.svg.png)](https://mountain-vs-ocean.herokuapp.com/)
+Remotely : Click on the badge [![Mountain v/s Ocean](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Heroku_logo.svg/2560px-Heroku_logo.svg.png =100)](https://mountain-vs-ocean.herokuapp.com/)
 
 ## Approach
 
@@ -32,9 +32,10 @@ Then I was lucky to find that this tutorial was extended to Heroku which helped 
 https://github.com/avinassh/pytorch-flask-api-heroku
 
 I decided to keep the design minimalistic. The main improvements that can be brought for the webpage are :
-*. adding examples to be able to easily test the application.
-*. adding more documentation and context to the page.
-*. adding more options to upload an image (different formats, URL, ...)
+
+* adding examples to be able to easily test the application.
+* adding more documentation and context to the page.
+* adding more options to upload an image (different formats, URL, ...)
 
 ### Deep Learning
 
@@ -54,9 +55,9 @@ The network architecture that was used is Densenet121. However, it would be inte
 
 For the training, I used the following parameters :
 
-*. Number of epoch : 25
-*. Batch size : 128
-*. Optimizer : Stochastic Gradient Descent (SGD)
+* Number of epoch : 25
+* Batch size : 128
+* Optimizer : Stochastic Gradient Descent (SGD)
 
 It would be also interesting to try different values for these parameter like 32, 64 and 256 for the batch size and Adam for the optimizer.
 
@@ -69,7 +70,7 @@ It would be interesting to optimize the training by taking advantage of multi-pr
 
 By performing this project, I learning many valuable skills :
 
-*. Coding a Web App with Flask,
-*. Designing a basic Web Page with HTML,
-*. Running a Website on Heroku,
-*. Transfer Learning with PyTorch.
+* Coding a Web App with Flask,
+* Designing a basic Web Page with HTML,
+* Running a Website on Heroku,
+* Transfer Learning with PyTorch.
